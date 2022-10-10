@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimaryDark">#FF08938A</color>-->
+    <color name="colorAccent">#0bbcb0</color>
+    <color name="grey">#E2E2E2</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="background">#73E2E2E2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="txt_color">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#FFE2E2E4</color>
+    <color name="main">#0E59F0</color>
+    <color name="lightblack">#646464</color>
+    <color name="text_diable">#26000000</color>
+    <color name="background2">#F2F3F4</color>
+    <color name="willis_color">#7a1fa2</color>
+    <color name="chhata_color">#2196F3</color>
+    <color name="chhata_red_color">#C90000</color>
+    <color name="chhata_blue_color">#0050C9</color>
+    <color name="chhata_green_color">#0E7819</color>
+
+    <color name="colorPrimary">#293448</color>
+    <color name="colorPrimaryDark">#212A3A</color>
+
+    <color name="policy_header_text_color">#3B4651</color>
+    <color name="almondz_policy">#FFA07A</color>
+    <color name="expiry_header">#FF6347</color>
+    <color name="dialog_button_text">#3B4651</color>
+    <color name="view_color">#cfcfcf</color>
+    <color name="colorPrimary1">#0735EC</color>
+    <color name="bottom_bar_menu_items">#aaa</color>
+    <color name="tabular_text_heading">#3B4651</color>
+    <color name="dialog_locator_benefit_icon">#3B4651</color>
+    <color name="tab_icons">#C0C0C0</color>
+
+    <!--<color name="colorPrimary">#892895</color>
+    <color name="colorPrimaryDark">#742D7D</color>-->
+
+    <!--<color name="colorPrimary">#4c5d6f</color>
+    <color name="colorPrimaryDark">#36424e</color>-->
+
+    <!--<color name="colorPrimary">#f78d95</color>
+    <color name="colorPrimaryDark">#f78d95</color>-->
+
+    <!--<color name="colorPrimary">#fcfdff</color>
+    <color name="colorPrimaryDark">#3B4651</color>-->
+    <color name="primary">#9E9E9E</color>
+    <color name="primary_dark">#757575</color>
+    <color name="text_color">#6D6D6D</color>
+    <color name="grey_transparent">#50000000</color>
+    <color name="blue">#58ACFA</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#979292</color>
+    <color name="dot_dark_screen2">#979292</color>
+    <color name="dot_dark_screen3">#979292</color>
+    <color name="dot_dark_screen4">#979292</color>
+
+<color name="inactive">#979292</color>
+    <array name="array_dot_active">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+
+    </array>
+
+    <color name="dashboard_back">#eef1f6</color>
+    <color name="light_grey">#d3d3d3</color>
+    <color name="my_challenges_background">#e8ebf0</color>
+
+    <color name="lightish_grey">#f5f5f5</color>
+
+    <color name="step_orange">#ffb849</color>
+    <color name="step_pink">#f26b93</color>
+    <color name="step_blue">#3acab1</color>
+    <color name="step_purple">#7a1fa2</color>
+
+    <color name="light_purple">#d9dadc</color>
+
+    <color name="color_black">#000</color>
+    <color name="color_green">#008000</color>
+    <color name="color_orange">#FF8C00</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_skyblue">#00BFFF</color>
+    <color name="color_popular_food_item">#f1f3f4</color>
+
+    <color name="tab_text">#6200ee</color>
+    <color name="pastel_red">#ff3b30</color>
+    <color name="pastel_yellow">#ff9500</color>
+    <color name="pastel_green">#4cd964</color>
+    <color name="pastel_purple">#5856d6</color>
+    <color name="pastel_pink">#ff2d55</color>
+    <color name="light_red">#ff5c5c</color>
+    <color name="light_orange">#ffb54d</color>
+
+
+    <color name="my_policy_tab_dark">#9b9ae6</color>
+    <color name="my_policy_tab_light">#efeefb</color>
+
+    <color name="claim_tab_dark">#94e8a2</color>
+    <color name="claim_tab_light">#edfbf0</color>
+
+    <color name="alert">#ff8983</color>
+
+    <color name="service_color_6">#2196f3</color>
+    <color name="ambulance_background">#c0e5e4</color>
+    <color name="blood_bank_background">#ecaf9e</color>
+    <color name="hospital_background">#acf7cb</color>
+    <color name="lab_test_background">#f4f7ab</color>
+    <color name="pharmacy_background">#d3c0f9</color>
+    <color name="diary_nav_unselected">#f06c37</color>
+    <color name="diary_nav_selected">#f3895f</color>
+    <color name="dialog_background">#c8000000</color>
+    <color name="badge_dialog_background">#fbfbf3</color>
+</resources>

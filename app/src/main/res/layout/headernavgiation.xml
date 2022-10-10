@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:src="@drawable/user" />
+
+
+        <TextView
+            android:id="@+id/enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@null"
+            android:fontFamily="@font/ballo"
+
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+
+        <TextView
+            android:id="@+id/hint_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter"
+
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="+9100000000"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

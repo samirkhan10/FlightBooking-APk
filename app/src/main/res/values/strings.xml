@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">URPLAN</string>
+    <string name="resend"><u>Resend</u></string>
+    <string name="login"><u>Login</u></string>
+    <string name="register"><u>Register</u></string>
+</resources>

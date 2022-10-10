@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_12sdp"
+    android:orientation="vertical">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+    android:background="@color/white"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+android:layout_margin="5dp"
+        android:background="@color/main"
+       android:padding="4dp"
+        android:text="Use your booking ID and pickup location to
+activate your itinerary. Or contact your travel
+agent for assistance."
+
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hint_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@null"
+        android:inputType="number"
+        android:text="Booking ID"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/fleet_driver_unique_id_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="@drawable/backlogin"
+
+
+        android:layout_marginTop="@dimen/_6sdp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/bookinId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+
+            android:background="@null"
+            android:fontFamily="@font/ballo"
+            android:hint="Enter your Booking ID."
+            android:inputType="text"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@null"
+        android:inputType="number"
+        android:text="Pickup Location"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="@drawable/backlogin"
+
+
+        android:layout_marginTop="@dimen/_6sdp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pickup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+
+            android:background="@null"
+            android:fontFamily="@font/ballo"
+            android:hint="Enter your Pickup Location"
+            android:inputType="text"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Submit"
+        style="@style/buttonStyle_matchparent"
+        android:layout_below="@+id/timerLayout"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/backred"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:textColor="@color/white">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:fontFamily="@font/ballo"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="-18dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/cancle"
+        android:src="@drawable/cut" />
+
+</RelativeLayout>

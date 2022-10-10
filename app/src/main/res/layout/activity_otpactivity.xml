@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/city"
+            android:padding="20dp">
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgUser"
+            android:layout_marginTop="-70dp"
+
+            android:layout_gravity="center"
+android:visibility="gone"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/imguser"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffff"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+android:layout_marginTop="@dimen/_50sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/enter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@null"
+                android:fontFamily="@font/ballo"
+                android:text="OTP"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:id="@+id/hint_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enter"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@null"
+                android:inputType="number"
+                android:text="Enter 6 Digit OTP Sent on Your Mobile.."
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/fleet_driver_unique_id_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/hint_phone"
+
+                android:background="@drawable/backlogin"
+                android:layout_marginStart="@dimen/_5sdp"
+
+                android:layout_marginTop="@dimen/_6sdp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="50dp"
+                    android:background="@null"
+                    android:fontFamily="@font/ballo"
+
+                    android:hint="Enter your OTP"
+                    android:inputType="phone"
+                    android:maxLength="6"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/timerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/fleet_driver_unique_id_layout">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/clock" />
+
+                    <TextView
+                        android:id="@+id/otp_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btn_resend_otp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:text="@string/resend"
+                    android:fontFamily="@font/ballo"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/Submit"
+            style="@style/buttonStyle_matchparent"
+            android:layout_below="@+id/timerLayout"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/backred"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textColor="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:fontFamily="@font/ballo"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+     android:layout_alignParentBottom="true"
+        android:background="@drawable/belowauth"/>
+
+</RelativeLayout>

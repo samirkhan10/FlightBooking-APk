@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreCity.ExploreActivity">
+
+    <RelativeLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/flad"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:onClick="Back"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/ballo"
+            android:text="Explore City"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cont"
+    android:layout_below="@id/tool"
+    android:background="#E3E3E3"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/Regisster"
+        style="@style/buttonStyle_matchparent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/backred"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+       >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ballo"
+            android:text="Filter Location"
+
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/male"
+            android:text="Nearby"
+            android:textColor="#fff"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/ballo"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+
+            android:paddingBottom="10dp"
+            android:background="@drawable/left_radius_selected"
+            android:paddingLeft="@dimen/_35sdp"
+            android:paddingRight="@dimen/_35sdp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/female"
+            android:text="Recommended"
+            android:textColor="@color/main"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/ballo"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/right_radius_unselected"
+            android:paddingLeft="@dimen/_35sdp"
+            android:paddingRight="@dimen/_35sdp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:background="@drawable/about_explore"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+
+            android:background="@drawable/eat_explore"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+
+            android:background="@drawable/see_explore"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+
+            android:background="@drawable/buy_explore"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/hint_phone"
+
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:background="@drawable/backlogin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/buy"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/buy" />
+
+
+        <EditText
+            android:id="@+id/buyEDT"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+
+            android:layout_toRightOf="@id/buy"
+            android:background="@null"
+            android:fontFamily="@font/ballo"
+            android:hint="What to buy?"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/userName_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/hint_phone"
+
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:background="@drawable/backlogin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/eat" />
+
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+
+            android:layout_toRightOf="@id/user"
+            android:background="@null"
+            android:fontFamily="@font/ballo"
+            android:hint="What to Eat?"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

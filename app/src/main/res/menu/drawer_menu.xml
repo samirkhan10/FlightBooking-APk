@@ -1,0 +1,78 @@
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<group android:id="@+id/g1">
+
+
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/user_profile"
+        android:title="My Profile" />
+
+    <item
+        android:id="@+id/hotel_detail"
+        android:icon="@drawable/hotel"
+        android:title="Hotel Details" />
+
+    <item
+        android:id="@+id/my_trip"
+        android:icon="@drawable/my_trip"
+        android:title="My Trips" />
+
+    <item
+        android:id="@+id/activate_itinerary"
+        android:icon="@drawable/activate"
+        android:title="Activate Itinerary" />
+
+    <item
+        android:id="@+id/show_qr"
+        android:icon="@drawable/qr"
+        android:title="Show QR Code" />
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:title="Refresh" />
+
+    <item
+        android:id="@+id/tour_travel"
+        android:icon="@drawable/tour"
+        android:title="Tour &amp; Speaker" />
+
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/weather"
+        android:title="Weather" />
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/feedback"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/do_dont"
+        android:icon="@drawable/do_dont"
+        android:title="Dos and Don’t" />
+
+    <item
+        android:id="@+id/share_exp"
+        android:icon="@drawable/term_cond"
+        android:title="Share Experience" />
+
+    <item
+        android:id="@+id/privacy_policy"
+        android:icon="@drawable/privacy_policy"
+        android:title="Privacy Policy" />
+</group>
+
+    <group android:id="@+id/g2">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
